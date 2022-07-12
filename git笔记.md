@@ -28,23 +28,32 @@ git add  文件名
 
 git  commit - m  '版本命名'
 
-# 报错
+## 查看版本记录
 
-1. 配置github 用户邮箱 用户
+git log
 
-   ![](https://s2.loli.net/2022/07/12/2KYNf1JyiPHcUmp.png)
+# 理论
+
+## git可以分成三个区域
+
+1. 工作区
+
+   1. 已改
+
+   2. 新文件/修改文件
+
+      将文件提交到暂存区(通过add命令)
+
+2. 暂存区
+
+   将文件生成版本 到版本库(commit 命令)
+
+3. 版本库
 
    
 
-2. 
+# 报错
 
-```
+## 配置github 用户邮箱 用户
 
-
-```
-
-
-
-
-
-1. 
+![](https://s2.loli.net/2022/07/12/2KYNf1JyiPHcUmp.png)
